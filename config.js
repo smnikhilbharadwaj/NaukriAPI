@@ -11,8 +11,8 @@ var config = {}
 /**
  * Add Host, AuthKey, Database ID and Collection ID to connect to DocumentDB.
  */
-config.host = process.env.HOST || "https://chromeplugin.documents.azure.com:443/";
-config.authKey = process.env.AUTH_KEY || "wTbXPqSTaQ7wW6NJmydEumxVvVxtMxgkUAi09Jfepi2LXQsuoWar9NGAX4KVDIiP42ttuaZ0MOq5kmIKTHIPhg==";
+config.host = process.env.HOST || "https://social.documents.azure.com:443/";
+config.authKey = process.env.AUTH_KEY || "y2VfDic1j4yqLcW2Ga3dsbB7VXBlOrF7RIlvtOqqZaH3anxmNZidKXiS0WUGhsC75z6KkwzpcKg9TqUFhweg7w==";
 config.databaseId = "ChromePlugin";
 config.collectionId = "Candidate";
 
